@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 148, 135);
+    color:#fff;
+    font-family: 'Trebuchet MS', Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#game{
+    display: flex;
+    text-align: center;
+}
+
+.genre-column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card{
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    text-align: center;
+    border:solid #fff;
+    padding: 5px;
+    margin: 10px;
+    font-size:100px ;
+}
+.correct-answer{
+ background-color: rgb(4, 223, 48);
+}
+
+.wrong-answer{
+    background-color: red;
+}
